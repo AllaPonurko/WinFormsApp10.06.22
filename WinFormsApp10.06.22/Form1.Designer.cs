@@ -38,6 +38,7 @@ namespace WinFormsApp10._06._22
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(95, 64);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -99,9 +100,9 @@ namespace WinFormsApp10._06._22
         #endregion
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Button btnEdit;
-        public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

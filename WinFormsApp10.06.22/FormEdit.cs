@@ -19,7 +19,7 @@ namespace WinFormsApp10._06._22
 
         private void Cancel_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void Save_Click(object sender, EventArgs e)
